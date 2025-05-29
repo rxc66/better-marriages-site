@@ -1,0 +1,148 @@
+.get-involved {
+  padding: 5rem 0;
+  background: var(--white);
+}
+
+.get-involved h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.ways-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.way-card {
+  background: var(--background-light);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.way-card:hover {
+  transform: translateY(-5px);
+}
+
+.way-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.way-card h3 {
+  color: var(--text-dark);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.way-card p {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.way-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.way-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.involvement-cta {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 4rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  border-radius: 10px;
+  color: var(--white);
+}
+
+.involvement-cta h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.involvement-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: var(--white);
+  color: var(--primary-dark);
+}
+
+.primary-btn:hover {
+  background: var(--background-light);
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .get-involved {
+    padding: 3rem 0;
+  }
+
+  .get-involved h2 {
+    font-size: 2rem;
+  }
+
+  .ways-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .involvement-cta {
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+
+  .involvement-cta h3 {
+    font-size: 1.5rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+} 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="60" cy="60" r="60" fill="#EBF5FF"/>
+  
+  <!-- Stylized couple silhouette -->
+  <path d="M35 40C31 40 28 43 28 47C28 55 35 60 40 62C45 60 52 55 52 47C52 43 49 40 45 40C42 40 40 42 40 44C40 42 38 40 35 40Z" fill="#0066CC" fill-opacity="0.4"/>
+  <path d="M75 45C71 45 68 48 68 52C68 60 75 65 80 67C85 65 92 60 92 52C92 48 89 45 85 45C82 45 80 47 80 49C80 47 78 45 75 45Z" fill="#0066CC" fill-opacity="0.6"/>
+</svg> 

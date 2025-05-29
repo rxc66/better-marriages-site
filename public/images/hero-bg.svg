@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1920" height="1080" fill="url(#gradient)"/>
+  
+  <!-- Abstract shapes -->
+  <path d="M0 400C200 350 400 500 600 450C800 400 1000 300 1200 350C1400 400 1600 450 1920 400V1080H0V400Z" fill="url(#wave)" fill-opacity="0.1"/>
+  <path d="M0 500C200 450 400 600 600 550C800 500 1000 400 1200 450C1400 500 1600 550 1920 500V1080H0V500Z" fill="url(#wave)" fill-opacity="0.15"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#001F3F"/>
+      <stop offset="100%" stop-color="#0066CC"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg> 
