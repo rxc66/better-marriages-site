@@ -107,14 +107,15 @@ const Events = () => {
                 </div>
                 <p>{event.description}</p>
                 {event.isOnDemand ? (
-                  <motion.a
-                    href={event.contactLink}
-                    className="contact-link"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Contact Us About Future Workshops
-                  </motion.a>
+                  <motion.div>
+                    <Link
+                      to="/contact"
+                      className="contact-link"
+                      style={{ display: 'inline-block' }}
+                    >
+                      Contact Us About Future Workshops
+                    </Link>
+                  </motion.div>
                 ) : event.link.startsWith('/') ? (
                   <Link to={event.link} className="event-btn">
                     Learn More
