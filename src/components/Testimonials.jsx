@@ -13,21 +13,21 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      quote: "The marriage enrichment program transformed our relationship. We learned valuable communication skills that we use every day.",
-      couple: "John & Sarah M.",
-      years: "Married 15 years"
+      quote: "(Example) The marriage enrichment program transformed our relationship. We learned valuable communication skills that we use every day.",
+      couple: "Example Couple",
+      years: "Example: Married 15 years"
     },
     {
       id: 2,
-      quote: "The support groups provided us with a community of couples who understand and encourage each other. It's been invaluable.",
-      couple: "David & Emily R.",
-      years: "Married 8 years"
+      quote: "(Example) The support groups provided us with a community of couples who understand and encourage each other. It's been invaluable.",
+      couple: "Example Couple",
+      years: "Example: Married 8 years"
     },
     {
       id: 3,
-      quote: "The annual retreat was a game-changer for us. We reconnected and learned new ways to strengthen our marriage.",
-      couple: "Michael & Lisa P.",
-      years: "Married 20 years"
+      quote: "(Example) The annual retreat was a game-changer for us. We reconnected and learned new ways to strengthen our marriage.",
+      couple: "Example Couple",
+      years: "Example: Married 20 years"
     }
   ];
 

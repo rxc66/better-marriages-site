@@ -7,6 +7,16 @@ const Navbar = ({ isScrolled }) => {
   const location = useLocation();
   const navigate = useNavigate();
 
+  const handleLogoClick = (e) => {
+    e.preventDefault();
+    if (location.pathname !== '/') {
+      navigate('/');
+      window.scrollTo(0, 0);
+    } else {
+      window.scrollTo(0, 0);
+    }
+  };
+
   const scrollToSection = (sectionId) => {
     // If we're not on the home page, navigate there first
     if (location.pathname !== '/') {
@@ -31,9 +41,9 @@ const Navbar = ({ isScrolled }) => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        <Link to="/" className="logo">
+        <a href="/" onClick={handleLogoClick} className="logo">
           <img src="/images/local-chapter-logo.svg?v=4" alt="Better Marriages Georgia Logo" />
-        </Link>
+        </a>
         
         <button 
           className={`mobile-menu-btn ${isMenuOpen ? 'open' : ''}`}

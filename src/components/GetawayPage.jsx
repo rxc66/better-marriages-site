@@ -51,19 +51,19 @@ const GetawayPage = () => {
 
   const testimonials = [
     {
-      quote: "This weekend transformed our marriage. We learned to truly listen and connect in ways we never knew possible.",
-      couple: "Sarah & James",
-      years: "Married 12 years"
+      quote: "(Example) This weekend transformed our marriage. We learned to truly listen and connect in ways we never knew possible.",
+      couple: "Example Couple",
+      years: "Example: Married 12 years"
     },
     {
-      quote: "The perfect blend of structured learning and free time to practice. We've made lifelong friends here.",
-      couple: "Michael & Lisa",
-      years: "Married 8 years"
+      quote: "(Example) The perfect blend of structured learning and free time to practice. We've made lifelong friends here.",
+      couple: "Example Couple",
+      years: "Example: Married 8 years"
     },
     {
-      quote: "Every couple should experience this. It's like a reset button for your relationship.",
-      couple: "David & Rachel",
-      years: "Married 15 years"
+      quote: "(Example) Every couple should experience this. It's like a reset button for your relationship.",
+      couple: "Example Couple",
+      years: "Example: Married 15 years"
     }
   ];
 
